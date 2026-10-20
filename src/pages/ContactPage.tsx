@@ -152,7 +152,7 @@ export function ContactPage({ settings }: { settings?: BusinessSettings | null }
             <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm relative group">
               <img
                 src="/shop/signboard.jpg"
-                alt="Official Signboard - Sri Jayavarman Electricals Rajee Electrical Service"
+                alt="Official Signboard - Sri Jayavarman Electricals (Raju Electricals)"
                 className="w-full h-64 object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
               <div className="p-3 bg-slate-900 text-white">

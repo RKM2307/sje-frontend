@@ -114,7 +114,7 @@ export function HeroSection({ settings }: HeroSectionProps) {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-200 leading-relaxed max-w-2xl">
-              <strong className="text-brand-yellow">Sri Jayavarman Electricals (Rajee Electrical Service)</strong> provides complete sales, rewinding & service for all company electric motors and pumps. Authorised PSG & CRI dealer, stocking genuine spare parts for all brand motors, submersibles, monoblocs, impellers, shafts, and bearings on Thevarpuram Road.
+              <strong className="text-brand-yellow">Sri Jayavarman Electricals (Raju Electricals)</strong> provides complete sales, rewinding & service for all company electric motors and pumps. Authorised PSG & CRI dealer, stocking genuine spare parts for all brand motors, submersibles, monoblocs, impellers, shafts, and bearings on Thevarpuram Road.
             </p>
 
             {/* Direct Owner Contact Card */}
