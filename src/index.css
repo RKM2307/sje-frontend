@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-slate-800 bg-slate-50;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Badge and gradient utilities */
+.glass-nav {
+  background: rgba(10, 25, 47, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.industrial-gradient {
+  background: linear-gradient(135deg, #0a192f 0%, #132742 50%, #1e56a0 100%);
+}
+
+.hero-pattern {
+  background-color: #0a192f;
+  background-image: radial-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 0), radial-gradient(rgba(30, 86, 160, 0.15) 1px, #0a192f 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 70%
+  );
+  transform: rotate(30deg);
+  pointer-events: none;
+  transition: transform 0.6s ease;
+}
+
+.card-shine:hover::after {
+  transform: rotate(30deg) translate(20%, 20%);
+}
