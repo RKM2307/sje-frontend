@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
-Sitemap: https://srijayavarmanelectricals.com/sitemap.xml
+Sitemap: https://srijayavarmanelectricals.netlify.app/sitemap.xml
